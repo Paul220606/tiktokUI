@@ -1,0 +1,27 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
+
+:root{
+    --primary: #ff4b69;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "TikTok Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizespeed;
+    font-weight: 400; /* Weight range: 100–900 */
+    font-style: normal;
+    font-variation-settings: "slnt" 0, "wdth" 100;
+}

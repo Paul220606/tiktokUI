@@ -1,18 +1,53 @@
-# React + Vite
+# Tiktok UI Clone (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and clean Tiktok user interface clone built with **React** and **Vite**. 
+This project aims to replicate the core layout and visual style of Tiktok using reusable components, responsive design, and clean code architecture.
 
-Currently, two official plugins are available:
+> **Status:** 🛠️ Project initialized - development has not started yet.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Tech Stack
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- **React 18**
+- **Vite** (for last dev & build)
+- **JavaScript (ES6+)**
+- **CSS** (no UI frameworks)
+- **ESLint** (default Vite configuration)
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+This project will focus on:
+- Rebuilding the Tiktok layout (sidebar, video feed, interactions)
+- Structuring reusable components
+- Implementing responsive UI
+- Practicing modern React development with Vite
+- Improving frontend skills and UI cloning ability
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Getting Started
+
+### 1.Install dependencies
+
+npm install
+
+### 2. Start development server
+
+npm run dev
+
+### 3. Build for production
+
+npm run build
+
+---
+
+## 📝 License
+This project is for learning and portfolio purposes only
+Not affiliated with Tiktok or ByteDance.
+
+---
+
+## ✨ Author
+Ho Thanh Hai Tran (Paul Tran)
+GitHub: https://github.com/Paul220606
