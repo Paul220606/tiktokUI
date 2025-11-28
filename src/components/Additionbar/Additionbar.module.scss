@@ -1,0 +1,10 @@
+.wrapper{
+    inset-inline-end: 24px;
+    position: fixed;
+    top: 24px;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 8px;
+}

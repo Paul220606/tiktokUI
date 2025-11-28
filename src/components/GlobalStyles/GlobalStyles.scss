@@ -6,6 +6,8 @@
 }
 
 * {
+    margin : 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -21,7 +23,8 @@ body {
     font-size: 1.6rem;
     line-height: 1.5;
     text-rendering: optimizespeed;
-    font-weight: 400; /* Weight range: 100–900 */
+    letter-spacing: 0.5px;
+    font-weight: 300; /* Weight range: 100–900 */
     font-style: normal;
     font-variation-settings: "slnt" 0, "wdth" 100;
 }

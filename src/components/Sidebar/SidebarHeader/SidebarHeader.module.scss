@@ -1,0 +1,24 @@
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 8px;
+    border-radius: 6px 6px 6px 6px;
+    cursor: pointer;
+    padding-bottom:12px;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  padding-right: 2px;
+  filter: drop-shadow(1px 0.5px 0 #fe2c55) drop-shadow(-1px -0.5px 0 #25f4ee);
+}
+
+.text {
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-shadow:
+      1px 0.5px 0 #fe2c55,
+      -1px -0.5px 0 #25f4ee;
+}
