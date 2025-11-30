@@ -9,13 +9,12 @@ import Messages from './Messages'
 const publicRoutes = [
     {path: '/', component: Home},
     {path: '/explore', component:Explore},
+    {path: '/following', component:Following},
     {path: '/live', component:Live},
-    
 ]
 
 // Private routes
 const privateRoutes = [
-    {path: '/following', component:Following},
     {path: '/friends', component:Friends},
     {path: '/messages', component:Messages},
 ]

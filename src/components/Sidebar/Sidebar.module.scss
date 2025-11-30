@@ -1,3 +1,8 @@
+@mixin wrapper-minimize-style{
+    width: 70px;
+    border-right: 0.5px solid rgb(137, 137, 137);
+}
+
 .wrapper {
     width: 15rem;
     height: 100vh;
@@ -5,4 +10,10 @@
     flex-direction: column;
     position: fixed;
     box-sizing: border-box;
+    position: relative;
+    @media (max-width: 1024px) {
+        @include wrapper-minimize-style;
+    }
 }
+
+.wrapper-minimize{@include wrapper-minimize-style;}

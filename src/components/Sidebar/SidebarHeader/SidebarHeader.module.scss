@@ -1,19 +1,45 @@
+
+@mixin header-minimize-style{
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    justify-content: center;
+    margin: 0;
+}
 .header-wrapper {
     display: flex;
     align-items: center;
     width: 100%;
-    padding-left: 8px;
-    border-radius: 6px 6px 6px 6px;
+    border-radius: 6px;
     cursor: pointer;
-    padding-bottom:12px;
+    padding: 8px 12px;
+    object-position: center;
+    @media (max-width: 1024px) {
+        @include header-minimize-style;
+    }
+}
+
+.header-minimize {
+    @include header-minimize-style;
+}
+
+@mixin logo-minimize-style{
+    padding: 0;
+    width: 32px;
+    height: 32px;
 }
 
 .logo {
-  width: 30px;
-  height: 30px;
-  padding-right: 2px;
-  filter: drop-shadow(1px 0.5px 0 #fe2c55) drop-shadow(-1px -0.5px 0 #25f4ee);
+    width: 38px;
+    height: 38px;
+    padding-Right: 6px;
+    box-sizing: border-box;
+    flex-shrink:0;
+    @media (max-width: 1024px) {
+        @include logo-minimize-style;
+    }
 }
+.logo-minimize{@include logo-minimize-style;}
 
 .text {
     font-weight: 600;
@@ -21,4 +47,14 @@
     text-shadow:
       1px 0.5px 0 #fe2c55,
       -1px -0.5px 0 #25f4ee;
+  @media (max-width: 1024px) {
+    display: none;
+  }
+}
+
+.text-minimize{display:none;}
+
+.search-bar {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }

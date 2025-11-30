@@ -1,0 +1,84 @@
+@mixin wrapper-minimize-style {
+    width: 50px;
+        height: 50px;
+        padding: 0;
+        justify-content: center;
+        margin: 0;
+}
+
+.item-wrapper {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 8px 12px;
+    &:hover{
+        background-color: rgb(43, 43, 43);
+    }
+    @media (max-width: 1024px) {
+        @include wrapper-minimize-style;
+    }
+}
+
+.wrapper-minimize {
+    @include wrapper-minimize-style;
+}
+
+.active {
+    color: var(--primary);
+}
+
+@mixin logo-minimize-style{
+    width:20px;
+    height:20px;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    width: 32px;
+    height: 32px;
+    padding-left: 8px;
+    padding-Right: 6px;
+    box-sizing: border-box;
+    flex-shrink:0;
+    @media (max-width: 1024px) {
+        @include logo-minimize-style;
+    }
+}
+
+.avatar {
+    @extend .logo;
+    width: 20px;
+    height: 20px;
+    margin-left: 9px;
+    margin-right: 4px;
+    object-fit: cover;
+    border-radius: 50%;
+    overflow:hidden;
+}
+
+logo-minimize {
+    @include logo-minimize-style;
+}
+
+.search-bar{
+    border-radius: 30px;
+    background-color:rgb(43, 43, 43);
+    color: rgb(137, 137, 137);
+    &:hover{background-color: gb(43, 43, 43)}
+}
+
+.text {
+    font-weight: 400;
+    letter-spacing: inherit;
+    @media (max-width: 1024px) {
+        display: none;
+    }
+}
+
+.other-note{color:white}
+
+.text-minimize{display:none;}
